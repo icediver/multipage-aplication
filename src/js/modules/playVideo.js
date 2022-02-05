@@ -45,7 +45,7 @@ export default class VideoPlayer {
       this.overlay.style.display = 'none';
       this.player.stopVideo();
 
-    })
+    });
   }
   createPlayer(url) {
     this.player = new YT.Player('frame', {
